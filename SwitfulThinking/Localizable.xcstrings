@@ -1,0 +1,42 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld" : {
+
+    },
+    "1" : {
+
+    },
+    "Cool Day" : {
+
+    },
+    "Every useful program needs to store data at some point, and in Swift there are two ways to do it: variables and constants." : {
+
+    },
+    "Fruit" : {
+      "extractionState" : "manual"
+    },
+    "Hello, World!" : {
+
+    },
+    "Hello, world! Today is Saturday, and it's raining here." : {
+
+    },
+    "Press" : {
+
+    },
+    "Sunday is Fine" : {
+
+    },
+    "test" : {
+
+    },
+    "Today is Sunday and it's a fine day. Sometimes, it's raining but today it's sunny. We all had a great time." : {
+
+    },
+    "Variables & Constants" : {
+
+    }
+  },
+  "version" : "1.0"
+}
