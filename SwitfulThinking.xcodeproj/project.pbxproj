@@ -23,6 +23,8 @@
 		3BAE8CBE2BF10D2C00C5E3E6 /* Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE8CBD2BF10D2C00C5E3E6 /* Spacer.swift */; };
 		3BAE8CC22BF1127000C5E3E6 /* InitializersEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE8CC12BF1127000C5E3E6 /* InitializersEnums.swift */; };
 		3BAECA7E2C89928D00CBEC98 /* ForEachs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAECA7D2C89928D00CBEC98 /* ForEachs.swift */; };
+		3BCD45322C89A40200A668DB /* ScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCD45312C89A40200A668DB /* ScrollViewExample.swift */; };
+		3BCD45342C89A6D100A668DB /* ScrollViewPartTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCD45332C89A6D100A668DB /* ScrollViewPartTwo.swift */; };
 		3BDB90AA2C5104BB00FE22C4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3BDB90A92C5104BB00FE22C4 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 		3BAE8CBD2BF10D2C00C5E3E6 /* Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacer.swift; sourceTree = "<group>"; };
 		3BAE8CC12BF1127000C5E3E6 /* InitializersEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializersEnums.swift; sourceTree = "<group>"; };
 		3BAECA7D2C89928D00CBEC98 /* ForEachs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachs.swift; sourceTree = "<group>"; };
+		3BCD45312C89A40200A668DB /* ScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample.swift; sourceTree = "<group>"; };
+		3BCD45332C89A6D100A668DB /* ScrollViewPartTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPartTwo.swift; sourceTree = "<group>"; };
 		3BDB90A92C5104BB00FE22C4 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +95,8 @@
 				3BAE8CC12BF1127000C5E3E6 /* InitializersEnums.swift */,
 				3B892C902C88AA1B00DEE858 /* InitsEnums.swift */,
 				3BAECA7D2C89928D00CBEC98 /* ForEachs.swift */,
+				3BCD45312C89A40200A668DB /* ScrollViewExample.swift */,
+				3BCD45332C89A6D100A668DB /* ScrollViewPartTwo.swift */,
 				3BDB90A92C5104BB00FE22C4 /* Localizable.xcstrings */,
 				3BAE8CA32BEF55C000C5E3E6 /* Assets.xcassets */,
 				3BAE8CA52BEF55C000C5E3E6 /* Preview Content */,
@@ -187,9 +193,11 @@
 				3BAE8CBE2BF10D2C00C5E3E6 /* Spacer.swift in Sources */,
 				3BAE8CB82BEFA5F000C5E3E6 /* BackgroundsOverlays.swift in Sources */,
 				3BAE8CA22BEF55BF00C5E3E6 /* ContentView.swift in Sources */,
+				3BCD45322C89A40200A668DB /* ScrollViewExample.swift in Sources */,
 				3BAE8CB22BEF794000C5E3E6 /* Icons.swift in Sources */,
 				3BAECA7E2C89928D00CBEC98 /* ForEachs.swift in Sources */,
 				3BAE8CC22BF1127000C5E3E6 /* InitializersEnums.swift in Sources */,
+				3BCD45342C89A6D100A668DB /* ScrollViewPartTwo.swift in Sources */,
 				3BAE8CA02BEF55BF00C5E3E6 /* SwitfulThinkingApp.swift in Sources */,
 				3BAE8CBC2BF0807500C5E3E6 /* Padding.swift in Sources */,
 			);
