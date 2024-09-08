@@ -31,23 +31,27 @@ struct NgulangInitEnums: View {
     }
    
     var body: some View {
-        VStack (spacing: 10) {
-            Circle()
-                .fill(rectangleColor)
-                .frame(width: 300, height: 150)
-                .padding()
-            Text(title)
-                .padding()
-            Text("\(count)")
-                .font(.largeTitle)
-        }
-        .frame(width: 200)
+        ScrollView(.vertical, showsIndicators: false, content: {
+            VStack {
+                ForEach(0..<5) { index in
+                    RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
+                        .fill(rectangleColor)
+                        .frame(width: 300, height: 150)
+                        .padding()
+                    Text(title)
+                        .padding()
+                    Text("\(count)")
+                        .font(.largeTitle)
+                }
+            }
+            .frame(width: 200)
+        })
     }
 }
 
 #Preview {
     HStack {
         NgulangInitEnums(count: 77, angelNumber: .big)
-        NgulangInitEnums(count: 99, angelNumber: .small)
+        NgulangInitEnums(count: 22, angelNumber: .small)
     }
 }
