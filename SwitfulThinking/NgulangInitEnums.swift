@@ -13,25 +13,41 @@ struct NgulangInitEnums: View {
     let title: String
     let count: Int
     
-    init(rectangleColor: Color, title: String, count: Int) {
-        self.rectangleColor = rectangleColor
-        self.title = title
+    init(count: Int, angelNumber: AngelNumber) {
         self.count = count
+        
+        if angelNumber == .big {
+            self.rectangleColor = .cyan
+            self.title = "big"
+        } else {
+            self.rectangleColor = .pink
+            self.title = "small"
+        }
+    }
+    
+    enum AngelNumber {
+        case big
+        case small
     }
    
     var body: some View {
-        Circle()
-            .fill(.cyan)
-            .frame(width: 300, height: 150)
-            .padding()
-        Text(title)
-            .padding()
-        Text("\(count)")
-            .font(.largeTitle)
-        
+        VStack (spacing: 10) {
+            Circle()
+                .fill(rectangleColor)
+                .frame(width: 300, height: 150)
+                .padding()
+            Text(title)
+                .padding()
+            Text("\(count)")
+                .font(.largeTitle)
+        }
+        .frame(width: 200)
     }
 }
 
 #Preview {
-    NgulangInitEnums(rectangleColor: .cyan, title: "Angel Number", count: 77)
+    HStack {
+        NgulangInitEnums(count: 77, angelNumber: .big)
+        NgulangInitEnums(count: 99, angelNumber: .small)
+    }
 }
