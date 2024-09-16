@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B86E57A2C8AC65C00080150 /* NgulangInitEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B86E5792C8AC65C00080150 /* NgulangInitEnums.swift */; };
 		3B892C912C88AA1B00DEE858 /* InitsEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B892C902C88AA1B00DEE858 /* InitsEnums.swift */; };
+		3BADF2442C986B6D00E02309 /* ButtonsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADF2432C986B6D00E02309 /* ButtonsExample.swift */; };
 		3BAE8CA02BEF55BF00C5E3E6 /* SwitfulThinkingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE8C9F2BEF55BF00C5E3E6 /* SwitfulThinkingApp.swift */; };
 		3BAE8CA22BEF55BF00C5E3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE8CA12BEF55BF00C5E3E6 /* ContentView.swift */; };
 		3BAE8CA42BEF55C000C5E3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAE8CA32BEF55C000C5E3E6 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		3B86E5792C8AC65C00080150 /* NgulangInitEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgulangInitEnums.swift; sourceTree = "<group>"; };
 		3B892C902C88AA1B00DEE858 /* InitsEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitsEnums.swift; sourceTree = "<group>"; };
+		3BADF2432C986B6D00E02309 /* ButtonsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExample.swift; sourceTree = "<group>"; };
 		3BAE8C9C2BEF55BF00C5E3E6 /* SwitfulThinking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitfulThinking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAE8C9F2BEF55BF00C5E3E6 /* SwitfulThinkingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitfulThinkingApp.swift; sourceTree = "<group>"; };
 		3BAE8CA12BEF55BF00C5E3E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				3BCD45332C89A6D100A668DB /* ScrollViewPartTwo.swift */,
 				3B86E5792C8AC65C00080150 /* NgulangInitEnums.swift */,
 				3BDDAAC02C91AECF00429369 /* NavigationViewExample.swift */,
+				3BADF2432C986B6D00E02309 /* ButtonsExample.swift */,
 				3BDB90A92C5104BB00FE22C4 /* Localizable.xcstrings */,
 				3BAE8CA32BEF55C000C5E3E6 /* Assets.xcassets */,
 				3BAE8CA52BEF55C000C5E3E6 /* Preview Content */,
@@ -203,6 +206,7 @@
 				3BCD45322C89A40200A668DB /* ScrollViewExample.swift in Sources */,
 				3BAE8CB22BEF794000C5E3E6 /* Icons.swift in Sources */,
 				3BAECA7E2C89928D00CBEC98 /* ForEachs.swift in Sources */,
+				3BADF2442C986B6D00E02309 /* ButtonsExample.swift in Sources */,
 				3BAE8CC22BF1127000C5E3E6 /* InitializersEnums.swift in Sources */,
 				3B86E57A2C8AC65C00080150 /* NgulangInitEnums.swift in Sources */,
 				3BCD45342C89A6D100A668DB /* ScrollViewPartTwo.swift in Sources */,
