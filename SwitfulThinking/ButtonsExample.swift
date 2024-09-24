@@ -26,6 +26,13 @@ struct ButtonsExample: View {
                 Text("2nd Button")
             })
             .accentColor(.green)
+            
+            Button (action: {
+                self.title = "wow"
+            }, label: {
+                Text("3rd Button")
+            })
+
         }
     }
 }
